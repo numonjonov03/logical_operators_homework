@@ -8,4 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return
+    if x>99:
+        return x%10==x//100
+    return x%10==x//10

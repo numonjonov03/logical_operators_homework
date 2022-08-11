@@ -9,4 +9,5 @@ def main(n):
         bool: answer
     """
 
-    return
+    n=str(n)
+    return n.count("0")==n.count("1")

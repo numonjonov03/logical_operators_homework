@@ -6,4 +6,4 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    return a%10<a//10%10 and a//10%10<a//100%10 and a//100%10<a%10000//1000 and a%10000//1000<a//100000

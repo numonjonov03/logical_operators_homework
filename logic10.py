@@ -6,4 +6,4 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a//10>0 and a==int(a)
+    return a//10>0 and a==int(a) and a//10<10

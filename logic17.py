@@ -1,4 +1,5 @@
-def main(a):
+def main(b):
+    a=b
     """
     Given a five-digit integer a,  check the following statement "All digits of the number are in ascending order".
     Args:

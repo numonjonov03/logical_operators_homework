@@ -8,6 +8,4 @@ def main(x):
     Returns:
         bool: answer
     """
-    if x>99:
-        return x%10==x//100
-    return x%10==x//10
+    return (x<100 and x%10==x//10) or (x>100 and x%10==x//100)
